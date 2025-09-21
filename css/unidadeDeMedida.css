@@ -23,5 +23,23 @@
 
 img{
     max-width: 80%;
-    
+
+}
+
+.container1 {
+    place-content: center; /* sem efeito aqui; só funciona com display: grid */
+    margin: auto; /* centraliza o próprio container horizontalmente quando há largura definida */
+    display: flex; /* ativa flexbox para alinhar os filhos */
+    justify-content: center; /* centraliza os filhos horizontalmente (eixo principal) */
+    align-items: center; /* centraliza os filhos verticalmente (eixo cruzado) */
+    width: 400px; /* define a largura fixa do container */
+    height: 200px; /* define a altura fixa do container */
+    background-color: #ccc; /* define a cor de fundo do container */
+}
+.filho1 {
+    text-align: center;
+    color: blue;
+    width: 50%;   /* 200px */
+    height: 50%;  /* 100px */
+    background-color: rgb(146, 146, 146);
 }
