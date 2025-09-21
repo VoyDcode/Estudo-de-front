@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/gragas.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1550px;
+    background-position: center;
+
+}
+
+#class{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: rgb(0, 255, 115);
+    width: 660px;
+    height: 500px;
+    margin: 20px 20px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+p{
+    background-color: rgba(128, 128, 128, 0.267);
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 255, 0.63);
+    background-color: rgb(72, 72, 206);
+    color: white;
+    font-family: Roboto Condensed;
+    padding: 5px 9px;
+    border-radius: 7px;
+    font-weight: 800;
+}
+#button:hover{
+    background-color: rgb(143, 143, 255);
+    color: rgb(72, 72, 206);
+}

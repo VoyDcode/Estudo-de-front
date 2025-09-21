@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #000000;
+    color: #000000;
+    text-align: center;
+    
+}
+
+.card--highlighted{ background-color: rgb(25, 94, 163);}
+
+.card__title{
+    width: 250px;
+    height: 42px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    color: #000000;
+    text-align: center;
+    background-color: white;
+}
+
+.card__description{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    color: #000000;
+    text-align: center;
+    background-color: white;
+}
+
+#pp{
+    height: 20px;
+}
+
+#button-6{
+    text-decoration: none;
+}
+

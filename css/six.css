@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto Condensed";
+    padding: 20px;
+}
+.box{
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    border:1px solid #dc143c;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* .box:nth-child(4){  Ele ira selecionar o quarto elemento da classe box e formatar ele.
+    background-color: #dc143c;
+    color: #ffffff;
+} */
+
+:is(.bg-color, h2,h3,h4){
+    background-color: #dc143c;
+    color: #fff;
+}
+h4{
+    background-color: rgb(63,14,75);
+}
+
+
+li{ 
+    margin: 20px 0;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    padding: 5px;
+}
+
+li:hover{ /* ele ira aplicar um estilo quando colocarmos o mouse em cima do elemento */
+    width: 300px;
+    height: 50px;
+    background-color: #dc143c;
+    color: #ffffff;
+}
+
+.espacamento{ height: 20px;}
+
+.botoes {
+    display: flex;
+    justify-content: space-between; /* Voltar = esquerda | Próximo = direita */
+    align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+
+.botoes a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    border: 1px solid #dc143c;
+}
+
+/* estilo individual */
+#button-3 {
+    margin-left: left;
+    background: white;
+    color: #000;
+}
+
+#button-4 {
+    background: black;
+    color: #dc143c;
+    margin: 0 auto;
+}
+
+
+
+

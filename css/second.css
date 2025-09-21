@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+
+#class-second {
+  width: 300px;
+  height: 250px;
+  margin: 20px 60px;
+
+  border-bottom: 6px solid #dc143c;
+  border-right: 4px solid #dc143c;
+  background-color: rgb(255, 227, 227);
+  padding: 20px 30px;
+
+  overflow: visible;
+  color: #000000;  
+  font-size: 16px;
+  text-align: left;
+  
+}
+
+.second-class{
+  width: 300px;
+  height: 250px;
+  margin: 20px 60px;
+
+  border-bottom: 6px solid #dc143c;
+  border-right: 4px solid #4b0cc0; /* apenas colocando algo diferente :) */
+  background-color: rgb(255, 227, 227);
+  padding: 20px 30px;
+
+  overflow: visible;
+  color: #000000;  
+  font-size: 16px;
+  text-align: left;
+
+}
+
+a{
+  text-decoration: none;
+}

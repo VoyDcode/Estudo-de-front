@@ -1,0 +1,52 @@
+/* Fonte do Google aplicada ao site/tabela */
+
+/* Dica: você já incluiu o <link> do Google Fonts em pages/tabela.html. 
+   Aqui só referenciamos a família para usá-la. */
+
+* {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-optical-sizing: auto; /* variável: ajusta o desenho da fonte */
+  font-weight: 400;           /* ajuste conforme necessário */
+  font-style: normal;
+}
+
+/* Títulos e tabela herdam a fonte */
+h1,
+caption,
+th,
+td {
+  font-family: inherit;
+}
+
+caption {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+th {
+  font-weight: 600;
+}
+
+/* (Opcional) Exemplo básico de estilos da tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+tr:nth-child(even) {
+  background: #f7f7f7;
+}
