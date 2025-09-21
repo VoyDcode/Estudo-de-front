@@ -27,7 +27,6 @@ img{
 }
 
 .container1 {
-    place-content: center; /* sem efeito aqui; só funciona com display: grid */
     margin: auto; /* centraliza o próprio container horizontalmente quando há largura definida */
     display: flex; /* ativa flexbox para alinhar os filhos */
     justify-content: center; /* centraliza os filhos horizontalmente (eixo principal) */
