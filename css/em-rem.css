@@ -22,3 +22,35 @@ html{
 .box p {
     font-size: 2rem;
 }
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 10 auto;
+    
+}
+
+#button-3{
+    margin-left: left;
+    background: purple;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+    border: 3px solid black;
+    
+
+}
+
+#button-4{
+    margin-left: left;
+    background: purple;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+    border: 3px solid black;
+    
+}
+
