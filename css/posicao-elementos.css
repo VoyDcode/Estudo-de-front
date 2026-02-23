@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    
+    width: 200px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.box3, .box4 {
+    /* Fiz isto apenas para mostrar como chamar duas class em uma mesma regra*/
+    width: 200px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
