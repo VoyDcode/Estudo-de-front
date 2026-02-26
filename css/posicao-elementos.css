@@ -27,5 +27,21 @@
 .h2{
     padding: 10px;
     margin-bottom: 10px;
+    /* Float também serve para  que o conteudo nao herde flutuações, podemos utilizar a propriedade clear no primeiro elemento*/
     float: left;
+    clear: both; /*Limpa esquerda e direita*/
+}
+
+#h2-text{
+    margin: 10px;
+    padding: 3px;
+}
+
+#botoes{
+    text-decoration: none;
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid black;
+    color: white;
+    background-color: blueviolet;
 }
