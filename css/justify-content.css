@@ -127,3 +127,37 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.container-5{
+    width: 80%;
+    min-height: 600px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header-left{
+    width: 200px;
+    height: 200px;
+    
+    background-color: #ccc;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.box-header-right{
+    width: 200px;
+    height: 200px;
+    margin: 1px auto;
+    background-color: rgba(153, 134, 134, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
