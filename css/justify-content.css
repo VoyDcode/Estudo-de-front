@@ -9,9 +9,10 @@
     width: 80%;
     min-height: 900px;
     margin: 20px auto;
-    border: 1px solid #333;
+    border: 2px solid #333;
     display: flex;
     flex-direction: row;
+    
     justify-content: center;
     /* align-items: self-end;  Isso ira posicionar o container de acordo com nossa preferencia,
      se é no topo, no meio ou final do container */
@@ -26,6 +27,103 @@
     display: flex;
 
     /* Colocar justify e align como center, centraliza tudo. */
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2{
+    width: 80%;
+    min-height: 900px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 20px;
+    display: flex;
+
+    /* Colocar justify e align como center, centraliza tudo. */
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 20px;
+    display: flex;
+     flex-grow: 3;  /*173,734 */
+
+    /* Colocar justify e align como center, centraliza tudo. */
+    justify-content: center;
+    align-items: center;
+}
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 20px;
+    display: flex;
+    flex-grow: 2;
+
+    /* Colocar justify e align como center, centraliza tudo. */
+    justify-content: center;
+    align-items: center;
+}
+.container-3{
+    width: 80%;
+    min-height: 600px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 150px; /* Espacamento entre os items, nao nas extremidades */
+    /* tem o gap grid area que aplica tanto horizontal quanto vertical */
+}
+
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    
+    display: flex;
+    flex-basis: 220px;
+    order: 2;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-5{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    
+    display: flex;
+    flex-basis: 310px;
+    order: 3;
+
+    justify-content: center;
+    align-items: center;
+}
+.box-6{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    
+    display: flex;
+    flex-basis: 160px;
+    order: 1;
+
     justify-content: center;
     align-items: center;
 }
