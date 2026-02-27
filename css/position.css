@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 150px auto;
+    width: 80%;
+    min-height: 600px;
+    background-color: rgb(129, 193, 237);
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
