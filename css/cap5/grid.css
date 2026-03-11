@@ -11,19 +11,60 @@ html{
 
 body{
     font-size: 1.6rem;
+    
 }
 
 .container{
-    height: 200vh;
+    height: 1000px;
+    width: 95%;
     padding: 2rem;
     display: grid;
+    margin: 10px; /* Espaçamento externo */
+
+    /* Colunas */
     grid-template-columns: repeat(3, 200px);
+
+    /* Linhas */
     grid-template-rows: repeat(3,200px);
+
     border: 1px solid black;
+    gap: 15px;
+    /* Alinhamento horizontal- eixo X */
+    justify-content: center;
+
+    /* Alinhamento Vertical - eixo y */
+    align-content:start;
+    align-content:end;
+    align-content: center; /* Sempre o ultimo é o que é valido(efeito cascata) */
+
+    /* Alinhamento Conteúdo! - Horizontal */
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    justify-items: stretch;
+    
+    /* Alinhamento Conteúdo! - Vertical */
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: stretch;
+}
+
+.out{
+    /* para separar um elemento e diferencia-lo aos demais */
+
+    /* Horizontal */
+    justify-self: self-start;
+
+    /* Vertical */
+    align-self: self-end;
 }
 
 .box{
     border: 1px solid #333;
     background-color: #999;
     min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
