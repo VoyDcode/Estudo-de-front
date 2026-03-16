@@ -22,6 +22,11 @@ body {
     grid-template-rows: 12vh 70vh 10vh;/* <-- define a altura de três linhas consecutivas em um contêiner de grade (grid),
                                         usando a unidade vh (viewport height - altura da área de visualização). */
 
+    grid-template-areas: "header header"
+                        "main aside"
+                        "footer footer"
+    ;
+
     
     gap: 1rem;
 }
@@ -30,6 +35,8 @@ body {
     grid-column-start: 1; /*Define de onde a coluna começa*/
     grid-column-end: 3; /*Define de onde a coluna acaba */
     /* grid-column: 1/3; faz a mesmma coisa que os de cima porém em uma linha*/
+
+    /* grid-area: header; */
     
 }
 .main{
