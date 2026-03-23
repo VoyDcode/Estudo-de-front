@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/cap-6-formularios/forms.css">
+    
+    <title>Estudo de Formularios</title>
+</head>
+<body>
+
+    <h1>Formularios</h1>
+    <form id="dados" name="dados" method="post" action="">
+        <fieldset>
+            <legend>Dados</legend>
+                
+                <label for="usuario">Digita o user ai bobao</label>
+                <input type="text" id="usuario" name="usuario">
+
+                <label for="password">Senha do bobao</label>
+                <input type="password" id="password" name="password">
+
+                <label for="email">E-mai KKKK</label>
+                <input type="email" id="email" name="email">
+
+                <label for="url">Seu linkedin</label>
+                <input type="url" id="url" name="url">
+
+                <label for="search">Seu linkedin</label>
+                <input type="search" id="search" name="search">
+
+                <label for="arquivo">arquivo</label>
+                <input type="file" id="arquivo" name="arquivo">
+
+                <label for="data">data</label>
+                <input type="date" id="data" name="data">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio</legend>
+            <input type="radio" name="checklist" id="front-end" value="1">
+            <label for="front-end">Front-End</label>
+            <input type="radio" name="checklist" id="back-end" value="2">
+            <label for="back-end">Back-end</label>
+            <input type="radio" name="checklist" id="banco-dados" value="3">
+            <label for="banco-dados">Banco de dados</label>
+        </fieldset>
+        <fieldset>
+            <legend>checklist</legend>
+            <input type="checkbox" name="lingua" id="ingles" value="1">
+            <label for="ingles">Ingles Americano</label>
+            <input type="checkbox" name="lingua" id="espanhol" value="2">
+            <label for="espanhol">Esanhol America Latina</label>
+            <input type="checkbox" name="lingua" id="italiano" value="3">
+            <label for="italiano">Italiano Reino Unido</label>
+            <input type="checkbox" name="lingua" id="russo" value="4">
+            <label for="russo">Russo Urss</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Opcoes</legend>
+            <label for="atuacao">Area De Atuacao</label>
+            <select name="atuacao" id="atuacao" required>
+                <option value="0" disabled selected>Escolha sua opção</option>
+                <option value="1">Front-End</option>
+                <option value="2">Back-end</option>
+                <option value="3">Banco de dados</option>
+                <option value="4">Desenvolvedor</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Data List</legend>
+            <input list="linguagens" id="lista-linguagens">
+            <datalist id="linguagens">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JAVA">
+                <option value="JAVASCRIPT">
+                <option value="TypeScript">
+                
+            </datalist>
+        </fieldset>
+
+
+    </form>
+   
+
+</body>
+</html>
