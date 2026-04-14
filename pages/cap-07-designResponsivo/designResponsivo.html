@@ -9,108 +9,53 @@
 
     <link rel="stylesheet" href="../../css/cap-07-Design-Responsivo/designResponsivo.css">
     
-    <title>Estudo de Formularios</title>
+    <title>Design Responsivo</title>
 </head>
 <body>
-
-    <h1>Formularios</h1>
-    <form id="dados" name="dados" method="post" action="">
-        <fieldset>
-            <legend>Dados</legend>
-                
-                <label for="usuario">Digita o user ai bobao</label>
-                <input type="text" id="usuario" name="usuario">
-
-                <label for="password">Senha do bobao</label>
-                <input type="password" id="password" name="password">
-
-                <label for="email">E-mai KKKK</label>
-                <input type="email" id="email" name="email">
-
-                <label for="url">Seu linkedin</label>
-                <input type="url" id="url" name="url">
-
-                <label for="search">Seu linkedin</label>
-                <input type="search" id="search" name="search">
-
-                <label for="arquivo">arquivo</label>
-                <input type="file" id="arquivo" name="arquivo">
-
-                <label for="data">data</label>
-                <input type="date" id="data" name="data">
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Radio</legend>
-            <input type="radio" name="checklist" id="front-end" value="1">
-            <label for="front-end">Front-End</label>
-            <input type="radio" name="checklist" id="back-end" value="2">
-            <label for="back-end">Back-end</label>
-            <input type="radio" name="checklist" id="banco-dados" value="3">
-            <label for="banco-dados">Banco de dados</label>
-        </fieldset>
-        <fieldset>
-            <legend>checklist</legend>
-            <input type="checkbox" name="lingua" id="ingles" value="1">
-            <label for="ingles">Ingles Americano</label>
-            <input type="checkbox" name="lingua" id="espanhol" value="2">
-            <label for="espanhol">Esanhol America Latina</label>
-            <input type="checkbox" name="lingua" id="italiano" value="3">
-            <label for="italiano">Italiano Reino Unido</label>
-            <input type="checkbox" name="lingua" id="russo" value="4">
-            <label for="russo">Russo Urss</label>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Opcoes</legend>
-            <label for="atuacao">Area De Atuacao</label>
-            <select name="atuacao" id="atuacao" required>
-                <option value="0" disabled selected>Escolha sua opção</option>
-                <option value="1">Front-End</option>
-                <option value="2">Back-end</option>
-                <option value="3">Banco de dados</option>
-                <option value="4">Desenvolvedor</option>
-            </select>
-        </fieldset>
-        <fieldset>
-            <legend>Data List</legend>
-            <input list="linguagens" id="lista-linguagens">
-            <datalist id="linguagens">
-                <option value="HTML">
-                <option value="CSS">
-                <option value="JAVA">
-                <option value="JAVASCRIPT">
-                <option value="TypeScript">
-            </datalist>
-        </fieldset>
-
-        <fieldset class="mensagem">
-            <Legend>Texto</Legend>
-            <label for="mensagem">Mensagem</label>
-            <textarea name="mensagem" id="mensagem"></textarea>
-            <input type="submit">
-        </fieldset>
-
-        <fieldset>
-            <legend>Botoes - input</legend>
-            <input type="submit" name="" id="" value="Criar Conta">
-            <input type="reset" name="" id="" value="Limpar Dados">
-            <input type="button" name="" id="" value="Chamar Javascript">
-        </fieldset>
-
-        <fieldset>
-            <legend>Botoes - Button</legend>
-            <button type="submit">limpar Dados</button>
-            <button type="reset">Criar Conta</button>
-            <button type="button">Chamar Javascript</button>
-        </fieldset>
-
-        <a href="../cap7/"></a>
-
-    </form>
-   
-
+    <header class="header">
+        <h1>XYZ<span class="logo">SYS</span></h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Clientes</a></li>
+                <li><a href="">Soluções</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Cases</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">       
+            <h3>DIGITAL CREATIVE</h3>
+            <h2>XYZ/SYSTEM</h2>
+            <h4>Technologic Solutions</h4>     
+    </section>
+    <section class="solutions">
+        <div class="solution-item">
+            <img src="../../img/Iconi.png" alt="icone web">
+            <h3>Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+        <div class="solution-item">
+            <img src="../../img/Iconi.png" alt="icone mobile">
+            <h3>Mobile</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+        <div class="solution-item">
+            <img src="../../img/Iconi.png" alt="icone big data">
+            <h3>Big Data</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+        <div class="solution-item">
+            <img src="../../img/Iconi.png" alt="icone cloud">
+            <h3>Cloud</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae laudantium maxime.</p>
+            <a href="" class="btn">Mais informações</a>
+        </div>
+    </section>
+    
 </body>
 </html>
