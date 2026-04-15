@@ -12,6 +12,7 @@
 body {
     font-family: 'Catamaran', sans-serif;
     background-color: #e6e6e6;
+    
 }
 a {
     text-decoration: none;
@@ -130,4 +131,31 @@ a {
     .solution-item {
         width: 90%;
     }
+}
+.proximoEstudo{
+    font-size: 40px;
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    background-color: yellow;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 1px 20px;
+    margin: 20px;
+}
+.proximoEstudo1{
+    font-size: 40px;
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    background-color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 1px 20px;
+    margin: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: black;
+    color: white;
 }
