@@ -30,3 +30,13 @@ a{
     padding: 5px 20px;
     border-radius: 5px;
 }
+
+p {
+    width: 43%;
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+}
