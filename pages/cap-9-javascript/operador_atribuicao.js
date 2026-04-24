@@ -14,4 +14,4 @@ primeiroNumero/= 2;
 console.log(`Atrubiocao de divisao /=2 em 140: ${primeiroNumero}`);
 
 primeiroNumero%= 3;
-console.log(`Atrubiocao de modulo %=3 em 70: ${primeiroNumero}`);   
+console.log(`Atrubiocao de modulo %=3 em 70: ${primeiroNumero}`);      
