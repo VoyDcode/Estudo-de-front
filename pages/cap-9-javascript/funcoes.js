@@ -36,6 +36,6 @@ function porcentagemComDesconto(valor1){
 
 function calcularPrecoFinal(preco, desconto) {
     // Se o desconto for 10, (100 - 10) / 100 vira 0.90
-    return preco * ((100 - desconto) / 100);
+    return preco * ( (100 - desconto) / 100);
 }
 console.log(calcularPrecoFinal(200, 15)); // 15% de desconto em 200
